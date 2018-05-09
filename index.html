@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+  <meta charset="utf-8">
+  <title>&#9883; Your Reaction Tester</title>
+  <link rel="stylesheet" href="TheGame.css">
+    <script src="TheGame.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head> 
+    
+<body onload="startCount(), changeRandom()">
+
+  <div class="container" id="game-intro">
+
+    <h1 id="header1">Test your reaction!</h1>
+      
+    <p id="instruction">
+    Wanna find out how fast you are?<br> Click on the randomly generated squares and circles as quickly as you can and check your result. <br>When you're done, the game will reload after 2 seconds so you can play it again.<br>
+    </p>
+    <p id="timer">Your time: </p>
+    </div>
+
+    <div class="container" id="game-board"> 
+  
+    <div id="random" onclick="refresh(2000), stopCount()"></div>
+
+    </div> 
+   
+  </body>
+</html>

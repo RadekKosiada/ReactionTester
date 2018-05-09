@@ -1,0 +1,57 @@
+* {
+  font-family: Nunito, Arial, sans-serif;
+ 
+}
+
+/*body {
+  min-height: 800px;
+}*/
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: blue;
+}
+
+h1, h3, p {
+  text-align: center;     
+}
+
+h3 {
+  color: blue;
+  margin-top: 0;
+
+}
+
+#ps {
+  font-style: italic;
+}
+   
+#game-intro {
+  border: 1px grey solid;
+  /* width: 80%;
+  height: 30%;          */
+  background-color: antiquewhite;
+  /* position: fixed; */
+  margin-top: 10px;
+  z-index: 2;
+  opacity: 0.75;
+}
+
+#game-board {
+ margin-top: 10px; */
+  height: 800px;
+  width: 800px;
+  align-self: center;
+}
+
+
+#random {
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+#timer {
+  margin-top: 0.5em;
+}
